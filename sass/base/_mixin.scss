@@ -1,0 +1,21 @@
+// ***********************
+// Mixin
+// ***********************
+
+@mixin size($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin margin-center {
+  margin: 0 auto;
+}
+
+@mixin circle {
+  border-radius: 100px;
+}
